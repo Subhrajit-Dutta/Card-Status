@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "f80f593f-49f1-486d-8244-0adce1a9f9c7",
+		"name": "Zywa",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26007518"
+	},
+	"item": [
+		{
+			"name": "Get Card Status 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get_card_status?card_id=ZYW7631",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get_card_status"
+					],
+					"query": [
+						{
+							"key": "card_id",
+							"value": "ZYW7631"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Card Status 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get_card_status?card_id=ZYW8827",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get_card_status"
+					],
+					"query": [
+						{
+							"key": "card_id",
+							"value": "ZYW8827"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Card Status 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/get_card_status?card_id=ZYW8890",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"get_card_status"
+					],
+					"query": [
+						{
+							"key": "card_id",
+							"value": "ZYW8890"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
